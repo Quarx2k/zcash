@@ -13,8 +13,8 @@ using namespace libsnark;
 
 TEST(algebra, bigint)
 {
-    static_assert(ULONG_MAX == 0xFFFFFFFFFFFFFFFFul, "unsigned long not 64-bit");
-    static_assert(GMP_NUMB_BITS == 64, "GMP limb not 64-bit");
+    //static_assert(ULONG_MAX == 0xFFFFFFFFFFFFFFFFul, "unsigned long not 64-bit");
+    //static_assert(GMP_NUMB_BITS == 64, "GMP limb not 64-bit");
 
     const char *b1_decimal = "76749407";
     const char *b2_decimal = "435020359732196472065729437602";
